@@ -23,6 +23,10 @@ starship = "latest"
 "brew:lazygit" = { os = ["macos"] }
 "brew:bottom" = { os = ["macos"] }
 "brew:just" = { os = ["macos"] }
+"brew-cask:bitwarden" = {os = ["macos"]}
+"brew-cask:ghostty" = { os = ["macos"] }
+"brew-cask:font-jetbrains-mono-nerd-font" = { os = ["macos"] }
+"brew-cask:obsidian" = { os = ["macos"] }
 # Add fonts, apps, etc.
 # "brew-cask:font-jetbrains-mono" = { os = "macos" }
 # "brew-cask:1password" = { os = "macos" }
