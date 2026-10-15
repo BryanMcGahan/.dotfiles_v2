@@ -12,6 +12,7 @@ fd = "latest"
 bat = "latest"
 fzf = "latest"
 gh = "latest"          # GitHub CLI
+starship = "latest"
 # Add more as needed: terraform, kubectl, aws-cli, etc.
 
 [bootstrap.packages]
