@@ -11,6 +11,7 @@ ripgrep = "latest"
 fd = "latest"
 bat = "latest"
 fzf = "latest"
+eza = "latest"
 gh = "latest"          # GitHub CLI
 starship = "latest"
 # Add more as needed: terraform, kubectl, aws-cli, etc.
