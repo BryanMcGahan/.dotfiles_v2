@@ -8,6 +8,17 @@ esac
 # pnpm end
 
 
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+
+alias ls="eza --icons=always"
+alias cat="bat"
+alias cd="z"
+alias vim="nvim"
+
+export EDITOR=nvim
+export TERM=xterm-256color
+
 
 eval "$(/Users/bmcgahan/.local/bin/mise activate zsh)"
 # >>> mise:activate >>> managed by mise — do not edit between markers
