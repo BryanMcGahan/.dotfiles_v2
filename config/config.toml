@@ -18,17 +18,18 @@ starship = "latest"
 
 [bootstrap.packages]
 # System packages (OS-specific)
-"brew:tmux" = { os = "macos" }
-"brew:git" = { os = "macos" }
-"brew:neovim" = {os = "macos"}
-"brew:lazygit" = { os = ["macos"] }
-"brew:bottom" = { os = ["macos"] }
-"brew:just" = { os = ["macos"] }
-"brew:zoxide" = {os = "macos"}
+"brew:tmux" = { os = "macos" , version = "latest" }
+"brew:git" = { os = "macos" , version = "latest" }
+"brew:neovim" = {os = "macos", version = "latest" }
+"brew:lazygit" = { os = ["macos"] , version = "latest" }
+"brew:bottom" = { os = ["macos"] , version = "latest" }
+"brew:just" = { os = ["macos"] , version = "latest" }
+"brew:zoxide" = {os = "macos", version = "latest" }
 "brew-cask:bitwarden" = {os = ["macos"]}
 "brew-cask:ghostty" = { os = ["macos"] }
 "brew-cask:font-jetbrains-mono-nerd-font" = { os = ["macos"] }
 "brew-cask:obsidian" = { os = ["macos"] }
+"brew:htop" = "latest"
 # Add fonts, apps, etc.
 # "brew-cask:font-jetbrains-mono" = { os = "macos" }
 # "brew-cask:1password" = { os = "macos" }
