@@ -30,7 +30,7 @@ zsh = true
 
 [dotfiles]
 # Optional: track important files so they come along
-# "~/.zshrc" = { mode = "track" }
+"~/.zshrc" = { mode = "track" }
 # "~/.gitconfig" = { mode = "track" }
 
 [tasks.bootstrap]
