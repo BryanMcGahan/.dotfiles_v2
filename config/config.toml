@@ -17,10 +17,9 @@ starship = "latest"
 
 [bootstrap.packages]
 # System packages (OS-specific)
-"brew:tmux"           = { os = "macos" }
-"brew:htop"           = { os = "macos" }
-"brew:git"            = { os = "macos" }
-"brew:neovim"         = {os = "macos"}
+"brew:tmux" = { os = "macos" }
+"brew:git" = { os = "macos" }
+"brew:neovim" = {os = "macos"}
 "brew:lazygit" = { os = ["macos"] }
 # Add fonts, apps, etc.
 # "brew-cask:font-jetbrains-mono" = { os = "macos" }
