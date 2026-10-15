@@ -1,0 +1,9 @@
+font-thicken = true
+
+macos-titlebar-style = transparent
+macos-window-buttons = hidden
+macos-option-as-alt = true
+
+term=xterm-256color
+
+theme = dark:Catppuccin Mocha,light:Catppuccin Latte
