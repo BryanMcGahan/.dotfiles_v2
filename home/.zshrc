@@ -1,3 +1,4 @@
+export PATH=~/.bin:$PATH
 # pnpm
 export PNPM_HOME='/Users/bmcgahan/Library/pnpm'
 case ":$PATH:" in
