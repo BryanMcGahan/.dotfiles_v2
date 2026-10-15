@@ -19,9 +19,6 @@ gh = "latest"          # GitHub CLI
 "brew:tmux"           = { os = "macos" }
 "brew:htop"           = { os = "macos" }
 "brew:git"            = { os = "macos" }
-"apt:tmux"            = { os = "linux" }
-"apt:htop"            = { os = "linux" }
-"apt:build-essential" = { os = "linux" }
 # Add fonts, apps, etc.
 # "brew-cask:font-jetbrains-mono" = { os = "macos" }
 # "brew-cask:1password" = { os = "macos" }
@@ -29,8 +26,6 @@ gh = "latest"          # GitHub CLI
 [bootstrap.mise_shell_activate]
 # Activate mise in your shell (adjust for your shell)
 zsh = true
-# or: bash = true
-# or: fish = "auto"
 
 [dotfiles]
 # Optional: track important files so they come along
