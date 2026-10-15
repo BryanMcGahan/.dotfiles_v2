@@ -34,7 +34,3 @@ zsh = true
 
 [tasks.bootstrap]
 # Optional one-time setup commands that run after everything else
-run = """
-echo "Running custom bootstrap tasks..."
-# e.g. mkdir -p ~/.ssh && chmod 700 ~/.ssh
-"""
