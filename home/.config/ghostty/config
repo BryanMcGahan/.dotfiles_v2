@@ -7,3 +7,6 @@ macos-option-as-alt = true
 term=xterm-256color
 
 theme = dark:Catppuccin Mocha,light:Catppuccin Latte
+
+
+keybind=shift+ctrl+r=reload_config
