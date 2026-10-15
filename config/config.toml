@@ -34,7 +34,6 @@ zsh = true
 "~/.zshrc" = { mode = "track" }
 # "~/.gitconfig" = { mode = "track" }
 
-
 [bootstrap.macos.defaults."NSGlobalDomain"]
 
 # Appearance
