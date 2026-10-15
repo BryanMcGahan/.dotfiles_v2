@@ -8,6 +8,12 @@
       "variants": []
     },
     {
+      "path": "config/config.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.bin",
       "autosave": true,
       "encrypt": false,

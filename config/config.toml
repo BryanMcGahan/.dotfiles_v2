@@ -1,0 +1,10 @@
+[bootstrap.services.mise-history]
+builtin = "history-watch"
+
+[bootstrap.mise_shell_activate]
+zsh = true
+
+[dotfiles]
+"~/.config/mise/config.toml" = { mode = "track" }
+"~/.config/nvim" = { mode = "track" }
+"~/.zshrc" = { mode = "track" }
