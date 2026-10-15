@@ -46,5 +46,7 @@
   ],
   "exclude": [],
   "recipients": [],
-  "permissions": {}
+  "permissions": {
+    "home/.zshrc": 416
+  }
 }

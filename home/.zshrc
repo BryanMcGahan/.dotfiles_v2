@@ -5,3 +5,11 @@ eval "$(mise activate zsh)"
 
 
 export PATH=~/.bin:$PATH
+
+# pnpm
+export PNPM_HOME='/Users/bmcgahan/Library/pnpm'
+case ":$PATH:" in
+  ":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+esac
+# pnpm end
