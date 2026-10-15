@@ -20,6 +20,7 @@ starship = "latest"
 "brew:tmux"           = { os = "macos" }
 "brew:htop"           = { os = "macos" }
 "brew:git"            = { os = "macos" }
+"brew:neovim"         = {os = "macos"}
 # Add fonts, apps, etc.
 # "brew-cask:font-jetbrains-mono" = { os = "macos" }
 # "brew-cask:1password" = { os = "macos" }
