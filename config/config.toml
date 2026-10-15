@@ -38,6 +38,7 @@ starship = "latest"
 zsh = true
 
 [dotfiles]
+"~/.config/nvim" = { mode = "track" }
 # Optional: track important files so they come along
 "~/.zshrc" = { mode = "track" }
 # "~/.gitconfig" = { mode = "track" }
