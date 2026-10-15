@@ -1,10 +1,45 @@
-[bootstrap.services.mise-history]
-builtin = "history-watch"
+# ~/.config/mise/config.toml
+
+[tools]
+# Language runtimes & common CLI tools
+node = "lts"
+python = "3.13"
+go = "latest"
+rust = "stable"
+# Popular CLIs (use the registry or backends)
+ripgrep = "latest"
+fd = "latest"
+bat = "latest"
+fzf = "latest"
+gh = "latest"          # GitHub CLI
+# Add more as needed: terraform, kubectl, aws-cli, etc.
+
+[bootstrap.packages]
+# System packages (OS-specific)
+"brew:tmux"           = { os = "macos" }
+"brew:htop"           = { os = "macos" }
+"brew:git"            = { os = "macos" }
+"apt:tmux"            = { os = "linux" }
+"apt:htop"            = { os = "linux" }
+"apt:build-essential" = { os = "linux" }
+# Add fonts, apps, etc.
+# "brew-cask:font-jetbrains-mono" = { os = "macos" }
+# "brew-cask:1password" = { os = "macos" }
 
 [bootstrap.mise_shell_activate]
+# Activate mise in your shell (adjust for your shell)
 zsh = true
+# or: bash = true
+# or: fish = "auto"
 
 [dotfiles]
-"~/.config/mise/config.toml" = { mode = "track" }
-"~/.config/nvim" = { mode = "track" }
-"~/.zshrc" = { mode = "track" }
+# Optional: track important files so they come along
+# "~/.zshrc" = { mode = "track" }
+# "~/.gitconfig" = { mode = "track" }
+
+[tasks.bootstrap]
+# Optional one-time setup commands that run after everything else
+run = """
+echo "Running custom bootstrap tasks..."
+# e.g. mkdir -p ~/.ssh && chmod 700 ~/.ssh
+"""

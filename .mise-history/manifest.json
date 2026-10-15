@@ -8,12 +8,6 @@
       "variants": []
     },
     {
-      "path": "config/config.toml",
-      "autosave": true,
-      "encrypt": false,
-      "variants": []
-    },
-    {
       "path": "home/.bin",
       "autosave": true,
       "encrypt": false,
@@ -21,12 +15,6 @@
     },
     {
       "path": "home/.config/ghostty",
-      "autosave": true,
-      "encrypt": false,
-      "variants": []
-    },
-    {
-      "path": "home/.config/nvim",
       "autosave": true,
       "encrypt": false,
       "variants": []
@@ -45,12 +33,6 @@
     },
     {
       "path": "home/.tmux.conf",
-      "autosave": true,
-      "encrypt": false,
-      "variants": []
-    },
-    {
-      "path": "home/.zshrc",
       "autosave": true,
       "encrypt": false,
       "variants": []
